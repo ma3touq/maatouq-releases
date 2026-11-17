@@ -1,0 +1,11 @@
+{
+  "versionCode": 132,
+  "versionName": "بناء 132",
+  "apkUrl": "https://github.com/ma3touq/maatouq-releases/releases/download/build-132/maatouq.apk",
+  "notes": [
+    "فحص التحديثات تلقائي: لو في نسخة جديدة هيظهرلك كارت تحميل",
+    "المهام المتكررة بتتجدد لوحدها",
+    "تذكيرات العادات لحد 14 يوم قدّام",
+    "إصلاحات في الإشعارات والنسخة الاحتياطية"
+  ]
+}
