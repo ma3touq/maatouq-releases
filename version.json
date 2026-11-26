@@ -1,12 +1,12 @@
 {
-  "versionCode": 226,
-  "versionName": "3.0.226",
-  "apkUrl": "https://github.com/ma3touq/maatouq-releases/releases/download/build-226/maatouq.apk",
+  "versionCode": 228,
+  "versionName": "3.0.228",
+  "apkUrl": "https://github.com/ma3touq/maatouq-releases/releases/download/build-228/maatouq.apk",
   "notes": [
     "المحذوفات انتقلت إلى «الدعم» وتقدر ترجّع أي حاجة مسحتها",
     "حذف أي مصروف أو دخل أو مهمة بقى بيسأل الأول",
     "صفحة الميزانية بقت أنظف، والتسجيل السريع تحت الرصيد",
-    "تقدر تخفي أو تظهر أقسام الميزانية من «الدعم»",
+    "تقدر تخفي أو تظهر أقسام الميزانية من «الدعم» شرح الاسخدام في الدعم",
     "تصفير الميزانية بيحفظ نسخة احتياطية تلقائي قبل المسح",
     "تصدير Excel وصورة التقرير فيهم الوصف وأكبر ٣ مصاريف"
   ]
