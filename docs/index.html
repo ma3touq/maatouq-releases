@@ -27,6 +27,13 @@ h1{font-size:44px;margin:0;line-height:1.3}
 .btn:active{transform:scale(.98)}
 .sub{display:block;margin-top:12px;color:#b8c5da;font-size:14px}
 .sub a{color:#fff}
+.ver{display:block;margin-top:14px;color:var(--amber2);font-size:15px;font-weight:700}
+.trust{display:block;margin-top:10px;color:#dbe4f3;font-size:14px}
+.trust b{color:#fff}
+.scan{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:16px 18px;margin-top:12px}
+.scan p{margin:0 0 8px}
+.scan ol{margin:0;padding-inline-start:22px;color:var(--mut)}
+.scan a{color:var(--navy);font-weight:700}
 section{padding:44px 0 6px}
 h2{font-size:28px;margin:0 0 6px}
 .p{color:var(--mut);margin:0 0 18px}
@@ -57,7 +64,9 @@ footer{text-align:center;color:var(--mut);padding:40px 0 50px;font-size:15px}
 <p class="tag">ركّز مكاني أسلوب حياة</p>
 <p class="lead">حياتنا مليانة مواعيد وفواتير ومشاوير. اكتب اللي في دماغك بالعامية، وركّز مكاني يرتّبه عنك.</p>
 <a class="btn" href="https://github.com/ma3touq/maatouq-releases/releases/latest/download/maatouq.apk">حمّل التطبيق (أندرويد)</a>
+<span class="ver">الإصدار <span class="vnum">3.0.228</span><span class="vdate"> · آخر تحديث ٢٦ نوفمبر ٢٠٢٦</span></span>
 <span class="sub">ملف APK من صفحة الإصدارات الرسمية. أندرويد هيطلب منك تسمح بالتثبيت من المتصفح. <a href="https://github.com/ma3touq/maatouq-releases/releases/latest">كل الإصدارات</a></span>
+<span class="trust">التطبيق تصميم وتطوير <b>أحمد معتوق</b>، وده هو مصدر التحميل الرسمي الوحيد.</span>
 </div></header>
 
 <main class="wrap">
@@ -92,10 +101,29 @@ footer{text-align:center;color:var(--mut);padding:40px 0 50px;font-size:15px}
 </div>
 </section>
 
+<section id="security">
+<h2>الأمان والصلاحيات</h2>
+<p class="p">التطبيق مش بيطلب منك أي إذن غير الإشعارات. ومش بيقرب من الكاميرا أو المايك أو الموقع أو جهات الاتصال أو ملفاتك.</p>
+<div class="feat">
+<div class="f"><b>الإشعارات</b><span>الإذن الوحيد اللي أندرويد هيسألك عنه، والتطبيق محتاجه علشان التذكيرات توصلك في ميعادها.</span></div>
+<div class="f"><b>صلاحيات التذكير</b><span>المنبّه الدقيق، الاهتزاز، إيقاظ الموبايل لحظة التذكير، وإعادة جدولة التذكيرات بعد ما الموبايل يتقفل ويتفتح. دي بتشتغل في الخلفية من غير ما تسألك عن حاجة، ووظيفتها إن التذكير يفضل مضبوط.</span></div>
+<div class="f"><b>الإنترنت</b><span>بيشتغل في حاجة واحدة بس: التطبيق بيتأكد إن فيه إصدار جديد نزل. مفيش أي بيانات شخصية بتخرج من موبايلك، ومفيش تتبّع ولا إعلانات.</span></div>
+<div class="f"><b>اللي مش موجود أصلاً</b><span>ولا كاميرا، ولا مايك، ولا موقع، ولا جهات اتصال، ولا صور وملفات، ولا رسايل ومكالمات.</span></div>
+</div>
+<div class="scan">
+<p><b>ومتاخدش الكلام ده مسلّم به.</b> افحص ملف التحميل بنفسك على VirusTotal، خدمة مستقلة بتفحص الملف بأكتر من ٧٠ برنامج حماية:</p>
+<ol>
+<li>حمّل ملف الـAPK من الزرار فوق.</li>
+<li>افتح <a href="https://www.virustotal.com/" target="_blank" rel="noopener">virustotal.com</a> وارفع الملف، أو الصق رابط التحميل في خانة URL.</li>
+</ol>
+</div>
+</section>
+
 <section>
 <h2>تحميل وتحديث</h2>
 <p class="p">التطبيق بيتحمّل كملف APK من الرابط فوق. لما ينزل إصدار جديد، هتلاقي كارت «تحديث جديد متاح» في تاب «دعم».</p>
 <div style="text-align:center"><a class="btn" style="margin-top:6px" href="https://github.com/ma3touq/maatouq-releases/releases/latest/download/maatouq.apk">حمّل التطبيق</a></div>
+<p class="note">الإصدار الحالي <span class="vnum">3.0.228</span><span class="vdate"> · آخر تحديث ٢٦ نوفمبر ٢٠٢٦</span></p>
 </section>
 
 <section>
@@ -109,5 +137,28 @@ footer{text-align:center;color:var(--mut);padding:40px 0 50px;font-size:15px}
 </section>
 </main>
 <footer><div class="wrap">ركّز مكاني · تصميم: أحمد معتوق</div></footer>
+<script>
+(function(){
+  var VURL='https://raw.githubusercontent.com/ma3touq/maatouq-releases/main/version.json';
+  var RURL='https://api.github.com/repos/ma3touq/maatouq-releases/releases/latest';
+  fetch(VURL,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(u){
+    if(!u||typeof u.versionName!=='string'||!u.versionName)return;
+    var nums=document.querySelectorAll('.vnum');
+    for(var i=0;i<nums.length;i++)nums[i].textContent=u.versionName;
+  }).catch(function(){});
+  fetch(RURL,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(rel){
+    if(!rel||!rel.published_at)return;
+    var d=new Date(rel.published_at);if(isNaN(d.getTime()))return;
+    var txt;
+    try{txt=new Intl.DateTimeFormat('ar-EG',{day:'numeric',month:'long',year:'numeric',timeZone:'Africa/Cairo'}).format(d)}
+    catch(e){txt=new Intl.DateTimeFormat('ar-EG',{day:'numeric',month:'long',year:'numeric'}).format(d)}
+    var ds=document.querySelectorAll('.vdate');
+    for(var i=0;i<ds.length;i++)ds[i].textContent=' · آخر تحديث '+txt;
+  }).catch(function(){
+    var ds=document.querySelectorAll('.vdate');
+    for(var i=0;i<ds.length;i++)ds[i].remove();
+  });
+})();
+</script>
 </body>
 </html>
