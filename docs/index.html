@@ -45,6 +45,8 @@ h2{font-size:28px;margin:0 0 6px}
 .mail{background:#fff;color:var(--navy)}
 .tg{background:#229ED9;color:#fff}
 footer{text-align:center;color:var(--mut);padding:40px 0 50px;font-size:15px}
+.vid{display:flex;flex-direction:column;align-items:center;text-align:center}
+.vid video{width:min(100%,340px);aspect-ratio:9/16;object-fit:cover;border-radius:22px;border:1px solid #1b2b4a;background:#0f1a30;box-shadow:0 14px 40px rgba(15,26,48,.28)}
 @media(min-width:700px){.feat{grid-template-columns:1fr 1fr}.shots{display:grid;grid-template-columns:1fr 1fr;gap:44px 24px}h1{font-size:54px}}
 </style>
 </head>
@@ -59,6 +61,12 @@ footer{text-align:center;color:var(--mut);padding:40px 0 50px;font-size:15px}
 </div></header>
 
 <main class="wrap">
+<section>
+<h2>شوف الفيديو</h2>
+<p class="p">دقيقتين وشوية تشوف فيهم التطبيق ماشي.</p>
+<div class="vid"><video controls preload="metadata" playsinline poster="img/cover.jpg" src="intro.mp4">المتصفح ده مش بيشغّل الفيديو. <a href="intro.mp4">افتح الفيديو</a></video></div>
+</section>
+
 <section>
 <h2>إيه اللي بيعمله؟</h2>
 <p class="p">تطبيق واحد للمهام والمواعيد والميزانية، بالمصري وبشكل بسيط.</p>
